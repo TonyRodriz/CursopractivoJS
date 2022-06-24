@@ -5,8 +5,8 @@ const helloPromise = () => {
         } else {
             reject('Ups!!');
         }
-    })
-}
+    });
+};
 
 helloPromise()
 .then(response => console.log(response));
